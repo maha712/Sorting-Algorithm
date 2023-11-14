@@ -17,8 +17,10 @@ To write a program to perform selection sort and insertion sort using python pro
 3.	If yes, move sorted element to the right by 1.
 4.	Break the loop and insert X.
 5.	Repeat the steps 2 to 4 for sorting all the elements in the array.
+
 ## Program:
 i)	#Selection Sort
+'''
 def selection_sort(nums):
     for i in range(len(nums)):
         lowest_value_index = i
@@ -42,6 +44,7 @@ def insertion_sort(nums):
 list_of_nums = eval(input())
 insertion_sort(list_of_nums)
 print(list_of_nums)
+'''
 
 Output:
 ![Screenshot (129)](https://github.com/maha712/Sorting-Algorithm/assets/121156360/a2e8bf0f-932b-47b7-a7bc-b68c1d4e65e5)
